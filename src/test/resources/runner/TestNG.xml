@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="GooglePay Sanity Test Suite">
+
+    <listeners>
+        <listener class-name="com.test.googlePay.utils.Listeners" />
+    </listeners>
+
+    <test name="GooglePay Sanity Testing">
+
+    <classes>
+        <class name="com.test.googlePay.testcases.GooglePayHomeScreenTest"/>
+    </classes>
+
+    </test>
+
+</suite>

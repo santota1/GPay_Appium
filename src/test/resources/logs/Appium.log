@@ -1,0 +1,1244 @@
+17:35:55,690 DEBUG devpinoyLogger:35 - Starting Appium Server
+17:35:56,052 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:35:56,058 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:35:56,059 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+17:35:56,071 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:35:56,072 DEBUG MainClientExec:234 - Opening connection {s}->https://us-mv.headspin.io:3007
+17:35:56,074 DEBUG DefaultHttpClientConnectionOperator:138 - Connecting to us-mv.headspin.io/67.207.98.187:3007
+17:35:56,074 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to us-mv.headspin.io/67.207.98.187:3007 with timeout 120000
+17:35:56,126 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+17:35:56,127 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+17:35:56,127 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+17:35:56,199 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+17:35:56,199 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+17:35:56,199 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+17:35:56,200 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=*.headspin.io, O=HeadSpin Inc., L=Mountain View, ST=California, C=US
+17:35:56,200 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [*.headspin.io, headspin.io]
+17:35:56,202 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=DigiCert SHA2 Secure Server CA, O=DigiCert Inc, C=US
+17:35:56,206 DEBUG DefaultHttpClientConnectionOperator:145 - Connection established 100.110.142.248:53226<->67.207.98.187:3007
+17:35:56,206 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:35:56,206 DEBUG MainClientExec:255 - Executing request POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session HTTP/1.1
+17:35:56,206 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:35:56,207 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:35:56,208 DEBUG headers:135 - http-outgoing-0 >> POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session HTTP/1.1
+17:35:56,208 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+17:35:56,208 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 288
+17:35:56,208 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:35:56,209 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:35:56,209 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:35:56,209 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:35:56,209 DEBUG wire:72 - http-outgoing-0 >> "POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session HTTP/1.1[\r][\n]"
+17:35:56,209 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:35:56,210 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 288[\r][\n]"
+17:35:56,210 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:35:56,210 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:35:56,210 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:35:56,210 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:35:56,210 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:35:56,211 DEBUG wire:86 - http-outgoing-0 >> "{"desiredCapabilities":{"appPackage":"com.google.android.apps.walletnfcrel","appActivity":"com.google.commerce.tapandpay.android.cardlist.CardListActivity","noReset":true,"automationName":"appium","browserName":"null","platformName":"Android","udid":"54da1e0c","deviceName":"TA39701NTO"}}"
+17:36:17,256 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:17,257 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:17,257 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:20 GMT[\r][\n]"
+17:36:17,258 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:17,258 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 982[\r][\n]"
+17:36:17,258 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:17,258 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:17,258 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:17,259 DEBUG wire:72 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+17:36:17,259 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"3d6-sDzCSlLjvYDhFe0IMGab/qhoMJI"[\r][\n]"
+17:36:17,259 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:17,259 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:17,259 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:17,259 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"deviceName":"TA39701NTO","udid":"54da1e0c","automationName":"appium","systemPort":1804,"noReset":true,"browserName":"null","appPackage":"com.google.android.apps.walletnfcrel","platformName":"Android","appActivity":"com.google.commerce.tapandpay.android.cardlist.CardListActivity"},"deviceName":"54da1e0c","udid":"54da1e0c","automationName":"appium","systemPort":1804,"noReset":true,"browserName":"null","appPackage":"com.google.android.apps.walletnfcrel","platformName":"Android","appActivity":"com.google.commerce.tapandpay.android.cardlist.CardListActivity","deviceUDID":"54da1e0c","platformVersion":"7.0","deviceScreenSize":"1440x2560","deviceModel":"SAMSUNG-SM-G930A","deviceManufacturer":"samsung"},"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:17,262 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:17,262 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:17,262 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:20 GMT
+17:36:17,262 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:17,262 DEBUG headers:127 - http-outgoing-0 << Content-Length: 982
+17:36:17,263 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:17,263 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:17,263 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:17,263 DEBUG headers:127 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+17:36:17,263 DEBUG headers:127 - http-outgoing-0 << Etag: W/"3d6-sDzCSlLjvYDhFe0IMGab/qhoMJI"
+17:36:17,263 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:17,263 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:17,266 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:17,270 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:17,270 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:22,388 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:22,388 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:22,389 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:22,391 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:22,391 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:22,391 DEBUG MainClientExec:207 - Stale connection check
+17:36:22,393 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:22,393 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:22,394 DEBUG MainClientExec:255 - Executing request POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1
+17:36:22,394 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:22,394 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:22,394 DEBUG headers:135 - http-outgoing-0 >> POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1
+17:36:22,394 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+17:36:22,394 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 43
+17:36:22,395 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:22,395 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:22,395 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:22,395 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:22,395 DEBUG wire:72 - http-outgoing-0 >> "POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1[\r][\n]"
+17:36:22,396 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:22,396 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 43[\r][\n]"
+17:36:22,396 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:22,396 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:22,396 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:22,396 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:22,397 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:22,397 DEBUG wire:86 - http-outgoing-0 >> "{"using":"id","value":"ReferrerMainButton"}"
+17:36:23,860 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:23,861 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:23,861 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:26 GMT[\r][\n]"
+17:36:23,862 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:23,862 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 74[\r][\n]"
+17:36:23,862 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:23,862 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:23,863 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:23,863 DEBUG wire:72 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+17:36:23,863 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"4a-cQJdlAaqlFRTcU3eHGv2ZeqrBXs"[\r][\n]"
+17:36:23,863 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:23,863 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:23,864 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:23,864 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":[],"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:23,864 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:23,864 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:23,864 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:26 GMT
+17:36:23,865 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:23,865 DEBUG headers:127 - http-outgoing-0 << Content-Length: 74
+17:36:23,865 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:23,865 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:23,865 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:23,865 DEBUG headers:127 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+17:36:23,865 DEBUG headers:127 - http-outgoing-0 << Etag: W/"4a-cQJdlAaqlFRTcU3eHGv2ZeqrBXs"
+17:36:23,866 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:23,866 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:23,866 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:23,866 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:23,867 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:23,872 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:23,872 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:23,872 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:23,873 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:23,873 DEBUG MainClientExec:207 - Stale connection check
+17:36:23,874 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:23,874 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:23,875 DEBUG MainClientExec:255 - Executing request GET /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/window/current/size HTTP/1.1
+17:36:23,875 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:23,875 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:23,875 DEBUG headers:135 - http-outgoing-0 >> GET /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/window/current/size HTTP/1.1
+17:36:23,875 DEBUG headers:138 - http-outgoing-0 >> Cache-Control: no-cache
+17:36:23,875 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:23,875 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:23,875 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:23,875 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:23,875 DEBUG wire:72 - http-outgoing-0 >> "GET /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/window/current/size HTTP/1.1[\r][\n]"
+17:36:23,876 DEBUG wire:72 - http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+17:36:23,876 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:23,876 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:23,876 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:23,876 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:23,876 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:24,453 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:24,453 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:24,453 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:27 GMT[\r][\n]"
+17:36:24,454 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:24,454 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 100[\r][\n]"
+17:36:24,454 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:24,454 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:24,454 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:24,455 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"64-JF17I6PPnEG8o3DfFBKadl3McCM"[\r][\n]"
+17:36:24,455 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:24,455 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:24,455 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:24,455 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":{"height":1920,"width":1080},"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:24,456 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:24,457 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:24,457 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:27 GMT
+17:36:24,458 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:24,458 DEBUG headers:127 - http-outgoing-0 << Content-Length: 100
+17:36:24,458 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:24,458 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:24,458 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:24,458 DEBUG headers:127 - http-outgoing-0 << Etag: W/"64-JF17I6PPnEG8o3DfFBKadl3McCM"
+17:36:24,458 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:24,459 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:24,459 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:24,459 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:24,459 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:24,462 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:24,462 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:24,462 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:24,463 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:24,463 DEBUG MainClientExec:207 - Stale connection check
+17:36:24,464 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:24,464 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:24,465 DEBUG MainClientExec:255 - Executing request POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/touch/perform HTTP/1.1
+17:36:24,465 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:24,465 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:24,465 DEBUG headers:135 - http-outgoing-0 >> POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/touch/perform HTTP/1.1
+17:36:24,465 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+17:36:24,465 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 183
+17:36:24,466 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:24,466 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:24,466 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:24,466 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:24,466 DEBUG wire:72 - http-outgoing-0 >> "POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/touch/perform HTTP/1.1[\r][\n]"
+17:36:24,466 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:24,466 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 183[\r][\n]"
+17:36:24,467 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:24,467 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:24,467 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:24,467 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:24,467 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:24,467 DEBUG wire:86 - http-outgoing-0 >> "{"actions":[{"action":"press","options":{"x":540,"y":1344}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"x":540,"y":576}},{"action":"release","options":{}}]}"
+17:36:25,966 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:25,966 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:25,967 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:29 GMT[\r][\n]"
+17:36:25,967 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:25,967 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+17:36:25,967 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:25,968 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:25,968 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:25,968 DEBUG wire:72 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+17:36:25,968 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"4c-Z/ga9lPnVMc70jE9KexLF0XeH7o"[\r][\n]"
+17:36:25,969 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:25,969 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:25,969 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:25,969 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":true,"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:25,969 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:25,970 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:25,970 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:29 GMT
+17:36:25,970 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:25,970 DEBUG headers:127 - http-outgoing-0 << Content-Length: 76
+17:36:25,970 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:25,971 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:25,971 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:25,971 DEBUG headers:127 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+17:36:25,971 DEBUG headers:127 - http-outgoing-0 << Etag: W/"4c-Z/ga9lPnVMc70jE9KexLF0XeH7o"
+17:36:25,971 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:25,971 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:25,972 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:25,972 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:25,972 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:25,974 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:25,974 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:25,974 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:25,974 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:25,974 DEBUG MainClientExec:207 - Stale connection check
+17:36:25,976 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:25,976 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:25,976 DEBUG MainClientExec:255 - Executing request POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1
+17:36:25,976 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:25,976 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:25,977 DEBUG headers:135 - http-outgoing-0 >> POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1
+17:36:25,977 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+17:36:25,977 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 43
+17:36:25,977 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:25,977 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:25,977 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:25,977 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:25,978 DEBUG wire:72 - http-outgoing-0 >> "POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1[\r][\n]"
+17:36:25,978 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:25,978 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 43[\r][\n]"
+17:36:25,978 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:25,978 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:25,978 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:25,978 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:25,979 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:25,979 DEBUG wire:86 - http-outgoing-0 >> "{"using":"id","value":"ReferrerMainButton"}"
+17:36:27,835 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:27,836 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:27,836 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:30 GMT[\r][\n]"
+17:36:27,836 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:27,836 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 74[\r][\n]"
+17:36:27,837 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:27,837 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:27,837 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:27,837 DEBUG wire:72 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+17:36:27,838 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"4a-cQJdlAaqlFRTcU3eHGv2ZeqrBXs"[\r][\n]"
+17:36:27,838 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:27,838 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:27,838 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:27,839 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":[],"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:27,839 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:27,839 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:27,839 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:30 GMT
+17:36:27,839 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:27,840 DEBUG headers:127 - http-outgoing-0 << Content-Length: 74
+17:36:27,840 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:27,840 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:27,840 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:27,840 DEBUG headers:127 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+17:36:27,840 DEBUG headers:127 - http-outgoing-0 << Etag: W/"4a-cQJdlAaqlFRTcU3eHGv2ZeqrBXs"
+17:36:27,840 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:27,841 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:27,841 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:27,841 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:27,841 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:27,843 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:27,843 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:27,843 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:27,843 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:27,843 DEBUG MainClientExec:207 - Stale connection check
+17:36:27,845 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:27,845 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:27,845 DEBUG MainClientExec:255 - Executing request GET /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/window/current/size HTTP/1.1
+17:36:27,845 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:27,845 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:27,845 DEBUG headers:135 - http-outgoing-0 >> GET /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/window/current/size HTTP/1.1
+17:36:27,846 DEBUG headers:138 - http-outgoing-0 >> Cache-Control: no-cache
+17:36:27,846 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:27,846 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:27,846 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:27,846 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:27,846 DEBUG wire:72 - http-outgoing-0 >> "GET /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/window/current/size HTTP/1.1[\r][\n]"
+17:36:27,846 DEBUG wire:72 - http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+17:36:27,847 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:27,847 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:27,847 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:27,847 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:27,847 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:28,193 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:28,193 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:28,194 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:31 GMT[\r][\n]"
+17:36:28,194 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:28,194 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 100[\r][\n]"
+17:36:28,194 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:28,194 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:28,195 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:28,195 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"64-JF17I6PPnEG8o3DfFBKadl3McCM"[\r][\n]"
+17:36:28,195 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:28,195 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:28,195 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:28,195 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":{"height":1920,"width":1080},"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:28,195 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:28,196 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:28,196 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:31 GMT
+17:36:28,196 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:28,196 DEBUG headers:127 - http-outgoing-0 << Content-Length: 100
+17:36:28,196 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:28,196 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:28,196 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:28,196 DEBUG headers:127 - http-outgoing-0 << Etag: W/"64-JF17I6PPnEG8o3DfFBKadl3McCM"
+17:36:28,197 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:28,197 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:28,197 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:28,197 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:28,198 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:28,199 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:28,199 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:28,200 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:28,200 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:28,200 DEBUG MainClientExec:207 - Stale connection check
+17:36:28,201 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:28,202 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:28,202 DEBUG MainClientExec:255 - Executing request POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/touch/perform HTTP/1.1
+17:36:28,202 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:28,202 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:28,202 DEBUG headers:135 - http-outgoing-0 >> POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/touch/perform HTTP/1.1
+17:36:28,202 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+17:36:28,202 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 183
+17:36:28,203 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:28,203 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:28,203 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:28,203 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:28,203 DEBUG wire:72 - http-outgoing-0 >> "POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/touch/perform HTTP/1.1[\r][\n]"
+17:36:28,203 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:28,203 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 183[\r][\n]"
+17:36:28,204 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:28,204 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:28,204 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:28,204 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:28,204 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:28,204 DEBUG wire:86 - http-outgoing-0 >> "{"actions":[{"action":"press","options":{"x":540,"y":1344}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"x":540,"y":576}},{"action":"release","options":{}}]}"
+17:36:29,575 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:29,575 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:29,575 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:32 GMT[\r][\n]"
+17:36:29,576 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:29,576 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+17:36:29,576 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:29,576 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:29,576 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:29,576 DEBUG wire:72 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+17:36:29,576 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"4c-Z/ga9lPnVMc70jE9KexLF0XeH7o"[\r][\n]"
+17:36:29,577 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:29,577 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:29,577 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:29,577 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":true,"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:29,577 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:29,577 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:29,577 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:32 GMT
+17:36:29,578 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:29,578 DEBUG headers:127 - http-outgoing-0 << Content-Length: 76
+17:36:29,578 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:29,578 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:29,578 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:29,578 DEBUG headers:127 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+17:36:29,578 DEBUG headers:127 - http-outgoing-0 << Etag: W/"4c-Z/ga9lPnVMc70jE9KexLF0XeH7o"
+17:36:29,578 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:29,579 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:29,579 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:29,579 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:29,579 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:29,581 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:29,581 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:29,581 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:29,581 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:29,581 DEBUG MainClientExec:207 - Stale connection check
+17:36:29,583 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:29,583 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:29,583 DEBUG MainClientExec:255 - Executing request POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1
+17:36:29,583 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:29,584 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:29,584 DEBUG headers:135 - http-outgoing-0 >> POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1
+17:36:29,584 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+17:36:29,584 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 43
+17:36:29,584 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:29,585 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:29,585 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:29,585 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:29,585 DEBUG wire:72 - http-outgoing-0 >> "POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1[\r][\n]"
+17:36:29,585 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:29,585 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 43[\r][\n]"
+17:36:29,586 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:29,586 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:29,586 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:29,586 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:29,586 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:29,586 DEBUG wire:86 - http-outgoing-0 >> "{"using":"id","value":"ReferrerMainButton"}"
+17:36:31,722 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:31,722 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:31,723 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:34 GMT[\r][\n]"
+17:36:31,723 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:31,723 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 74[\r][\n]"
+17:36:31,723 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:31,723 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:31,723 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:31,723 DEBUG wire:72 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+17:36:31,724 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"4a-cQJdlAaqlFRTcU3eHGv2ZeqrBXs"[\r][\n]"
+17:36:31,724 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:31,724 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:31,724 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:31,724 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":[],"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:31,724 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:31,724 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:31,725 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:34 GMT
+17:36:31,725 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:31,725 DEBUG headers:127 - http-outgoing-0 << Content-Length: 74
+17:36:31,725 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:31,725 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:31,725 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:31,725 DEBUG headers:127 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+17:36:31,725 DEBUG headers:127 - http-outgoing-0 << Etag: W/"4a-cQJdlAaqlFRTcU3eHGv2ZeqrBXs"
+17:36:31,725 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:31,725 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:31,726 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:31,726 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:31,726 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:31,727 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:31,727 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:31,728 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:31,728 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:31,728 DEBUG MainClientExec:207 - Stale connection check
+17:36:31,729 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:31,729 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:31,730 DEBUG MainClientExec:255 - Executing request GET /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/window/current/size HTTP/1.1
+17:36:31,730 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:31,730 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:31,730 DEBUG headers:135 - http-outgoing-0 >> GET /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/window/current/size HTTP/1.1
+17:36:31,730 DEBUG headers:138 - http-outgoing-0 >> Cache-Control: no-cache
+17:36:31,730 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:31,730 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:31,730 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:31,731 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:31,731 DEBUG wire:72 - http-outgoing-0 >> "GET /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/window/current/size HTTP/1.1[\r][\n]"
+17:36:31,731 DEBUG wire:72 - http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+17:36:31,731 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:31,731 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:31,731 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:31,731 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:31,732 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:32,068 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:32,068 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:32,068 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:35 GMT[\r][\n]"
+17:36:32,069 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:32,070 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 100[\r][\n]"
+17:36:32,070 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:32,070 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:32,071 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:32,071 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"64-JF17I6PPnEG8o3DfFBKadl3McCM"[\r][\n]"
+17:36:32,071 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:32,071 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:32,071 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:32,071 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":{"height":1920,"width":1080},"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:32,071 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:32,072 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:32,072 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:35 GMT
+17:36:32,072 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:32,072 DEBUG headers:127 - http-outgoing-0 << Content-Length: 100
+17:36:32,072 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:32,072 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:32,072 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:32,072 DEBUG headers:127 - http-outgoing-0 << Etag: W/"64-JF17I6PPnEG8o3DfFBKadl3McCM"
+17:36:32,072 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:32,073 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:32,073 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:32,073 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:32,073 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:32,075 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:32,075 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:32,075 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:32,075 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:32,076 DEBUG MainClientExec:207 - Stale connection check
+17:36:32,077 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:32,077 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:32,077 DEBUG MainClientExec:255 - Executing request POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/touch/perform HTTP/1.1
+17:36:32,077 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:32,078 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:32,078 DEBUG headers:135 - http-outgoing-0 >> POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/touch/perform HTTP/1.1
+17:36:32,078 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+17:36:32,078 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 183
+17:36:32,078 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:32,078 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:32,078 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:32,078 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:32,078 DEBUG wire:72 - http-outgoing-0 >> "POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/touch/perform HTTP/1.1[\r][\n]"
+17:36:32,079 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:32,079 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 183[\r][\n]"
+17:36:32,079 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:32,079 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:32,079 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:32,079 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:32,079 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:32,079 DEBUG wire:86 - http-outgoing-0 >> "{"actions":[{"action":"press","options":{"x":540,"y":1344}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"x":540,"y":576}},{"action":"release","options":{}}]}"
+17:36:33,418 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:33,419 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:33,419 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:36 GMT[\r][\n]"
+17:36:33,419 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:33,419 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+17:36:33,419 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:33,420 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:33,420 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:33,420 DEBUG wire:72 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+17:36:33,420 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"4c-Z/ga9lPnVMc70jE9KexLF0XeH7o"[\r][\n]"
+17:36:33,420 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:33,421 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:33,421 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:33,421 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":true,"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:33,421 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:33,421 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:33,421 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:36 GMT
+17:36:33,422 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:33,422 DEBUG headers:127 - http-outgoing-0 << Content-Length: 76
+17:36:33,422 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:33,422 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:33,422 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:33,422 DEBUG headers:127 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+17:36:33,422 DEBUG headers:127 - http-outgoing-0 << Etag: W/"4c-Z/ga9lPnVMc70jE9KexLF0XeH7o"
+17:36:33,422 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:33,422 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:33,423 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:33,423 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:33,423 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:33,425 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:33,425 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:33,425 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:33,425 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:33,425 DEBUG MainClientExec:207 - Stale connection check
+17:36:33,427 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:33,427 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:33,427 DEBUG MainClientExec:255 - Executing request POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1
+17:36:33,427 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:33,427 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:33,427 DEBUG headers:135 - http-outgoing-0 >> POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1
+17:36:33,427 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+17:36:33,427 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 43
+17:36:33,428 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:33,428 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:33,428 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:33,428 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:33,428 DEBUG wire:72 - http-outgoing-0 >> "POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1[\r][\n]"
+17:36:33,428 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:33,428 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 43[\r][\n]"
+17:36:33,428 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:33,428 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:33,429 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:33,429 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:33,429 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:33,429 DEBUG wire:86 - http-outgoing-0 >> "{"using":"id","value":"ReferrerMainButton"}"
+17:36:35,252 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:35,252 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:35,253 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:38 GMT[\r][\n]"
+17:36:35,253 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:35,253 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 74[\r][\n]"
+17:36:35,253 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:35,253 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:35,254 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:35,254 DEBUG wire:72 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+17:36:35,254 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"4a-cQJdlAaqlFRTcU3eHGv2ZeqrBXs"[\r][\n]"
+17:36:35,254 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:35,254 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:35,255 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:35,255 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":[],"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:35,255 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:35,255 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:35,256 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:38 GMT
+17:36:35,256 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:35,256 DEBUG headers:127 - http-outgoing-0 << Content-Length: 74
+17:36:35,256 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:35,256 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:35,256 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:35,256 DEBUG headers:127 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+17:36:35,256 DEBUG headers:127 - http-outgoing-0 << Etag: W/"4a-cQJdlAaqlFRTcU3eHGv2ZeqrBXs"
+17:36:35,257 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:35,257 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:35,257 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:35,257 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:35,258 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:35,259 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:35,259 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:35,259 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:35,259 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:35,260 DEBUG MainClientExec:207 - Stale connection check
+17:36:35,261 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:35,261 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:35,261 DEBUG MainClientExec:255 - Executing request GET /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/window/current/size HTTP/1.1
+17:36:35,261 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:35,262 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:35,262 DEBUG headers:135 - http-outgoing-0 >> GET /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/window/current/size HTTP/1.1
+17:36:35,262 DEBUG headers:138 - http-outgoing-0 >> Cache-Control: no-cache
+17:36:35,262 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:35,262 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:35,262 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:35,262 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:35,262 DEBUG wire:72 - http-outgoing-0 >> "GET /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/window/current/size HTTP/1.1[\r][\n]"
+17:36:35,263 DEBUG wire:72 - http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+17:36:35,263 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:35,263 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:35,263 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:35,263 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:35,263 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:35,629 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:35,629 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:35,630 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:38 GMT[\r][\n]"
+17:36:35,630 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:35,630 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 100[\r][\n]"
+17:36:35,630 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:35,630 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:35,630 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:35,631 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"64-JF17I6PPnEG8o3DfFBKadl3McCM"[\r][\n]"
+17:36:35,631 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:35,631 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:35,631 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:35,631 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":{"height":1920,"width":1080},"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:35,632 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:35,632 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:35,632 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:38 GMT
+17:36:35,632 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:35,632 DEBUG headers:127 - http-outgoing-0 << Content-Length: 100
+17:36:35,632 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:35,633 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:35,633 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:35,633 DEBUG headers:127 - http-outgoing-0 << Etag: W/"64-JF17I6PPnEG8o3DfFBKadl3McCM"
+17:36:35,633 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:35,633 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:35,633 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:35,634 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:35,634 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:35,635 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:35,636 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:35,636 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:35,636 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:35,636 DEBUG MainClientExec:207 - Stale connection check
+17:36:35,637 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:35,638 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:35,638 DEBUG MainClientExec:255 - Executing request POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/touch/perform HTTP/1.1
+17:36:35,638 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:35,638 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:35,638 DEBUG headers:135 - http-outgoing-0 >> POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/touch/perform HTTP/1.1
+17:36:35,638 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+17:36:35,638 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 183
+17:36:35,638 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:35,639 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:35,639 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:35,639 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:35,639 DEBUG wire:72 - http-outgoing-0 >> "POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/touch/perform HTTP/1.1[\r][\n]"
+17:36:35,639 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:35,639 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 183[\r][\n]"
+17:36:35,639 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:35,639 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:35,639 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:35,640 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:35,640 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:35,640 DEBUG wire:86 - http-outgoing-0 >> "{"actions":[{"action":"press","options":{"x":540,"y":1344}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"x":540,"y":576}},{"action":"release","options":{}}]}"
+17:36:36,930 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:36,930 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:36,930 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:39 GMT[\r][\n]"
+17:36:36,930 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:36,930 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+17:36:36,930 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:36,931 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:36,931 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:36,931 DEBUG wire:72 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+17:36:36,931 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"4c-Z/ga9lPnVMc70jE9KexLF0XeH7o"[\r][\n]"
+17:36:36,931 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:36,931 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:36,931 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:36,931 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":true,"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:36,931 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:36,931 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:36,932 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:39 GMT
+17:36:36,932 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:36,932 DEBUG headers:127 - http-outgoing-0 << Content-Length: 76
+17:36:36,932 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:36,932 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:36,932 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:36,932 DEBUG headers:127 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+17:36:36,932 DEBUG headers:127 - http-outgoing-0 << Etag: W/"4c-Z/ga9lPnVMc70jE9KexLF0XeH7o"
+17:36:36,932 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:36,932 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:36,932 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:36,933 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:36,933 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:36,934 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:36,934 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:36,934 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:36,934 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:36,934 DEBUG MainClientExec:207 - Stale connection check
+17:36:36,936 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:36,936 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:36,936 DEBUG MainClientExec:255 - Executing request POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1
+17:36:36,936 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:36,936 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:36,936 DEBUG headers:135 - http-outgoing-0 >> POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1
+17:36:36,936 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+17:36:36,937 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 43
+17:36:36,937 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:36,937 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:36,937 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:36,937 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:36,937 DEBUG wire:72 - http-outgoing-0 >> "POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1[\r][\n]"
+17:36:36,937 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:36,937 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 43[\r][\n]"
+17:36:36,937 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:36,938 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:36,938 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:36,938 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:36,938 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:36,938 DEBUG wire:86 - http-outgoing-0 >> "{"using":"id","value":"ReferrerMainButton"}"
+17:36:38,752 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:38,752 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:38,752 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:41 GMT[\r][\n]"
+17:36:38,752 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:38,753 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 74[\r][\n]"
+17:36:38,753 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:38,753 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:38,753 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:38,753 DEBUG wire:72 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+17:36:38,753 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"4a-cQJdlAaqlFRTcU3eHGv2ZeqrBXs"[\r][\n]"
+17:36:38,753 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:38,754 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:38,754 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:38,754 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":[],"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:38,754 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:38,754 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:38,754 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:41 GMT
+17:36:38,754 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:38,754 DEBUG headers:127 - http-outgoing-0 << Content-Length: 74
+17:36:38,755 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:38,755 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:38,755 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:38,755 DEBUG headers:127 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+17:36:38,755 DEBUG headers:127 - http-outgoing-0 << Etag: W/"4a-cQJdlAaqlFRTcU3eHGv2ZeqrBXs"
+17:36:38,755 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:38,755 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:38,755 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:38,756 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:38,756 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:38,757 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:38,757 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:38,757 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:38,758 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:38,758 DEBUG MainClientExec:207 - Stale connection check
+17:36:38,759 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:38,759 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:38,759 DEBUG MainClientExec:255 - Executing request GET /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/window/current/size HTTP/1.1
+17:36:38,759 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:38,760 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:38,760 DEBUG headers:135 - http-outgoing-0 >> GET /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/window/current/size HTTP/1.1
+17:36:38,760 DEBUG headers:138 - http-outgoing-0 >> Cache-Control: no-cache
+17:36:38,760 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:38,760 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:38,760 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:38,760 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:38,760 DEBUG wire:72 - http-outgoing-0 >> "GET /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/window/current/size HTTP/1.1[\r][\n]"
+17:36:38,761 DEBUG wire:72 - http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+17:36:38,761 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:38,761 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:38,761 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:38,761 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:38,761 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:39,096 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:39,096 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:39,096 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:42 GMT[\r][\n]"
+17:36:39,096 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:39,097 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 100[\r][\n]"
+17:36:39,097 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:39,097 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:39,097 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:39,097 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"64-JF17I6PPnEG8o3DfFBKadl3McCM"[\r][\n]"
+17:36:39,097 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:39,097 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:39,097 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:39,097 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":{"height":1920,"width":1080},"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:39,098 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:39,098 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:39,098 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:42 GMT
+17:36:39,098 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:39,098 DEBUG headers:127 - http-outgoing-0 << Content-Length: 100
+17:36:39,098 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:39,098 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:39,098 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:39,099 DEBUG headers:127 - http-outgoing-0 << Etag: W/"64-JF17I6PPnEG8o3DfFBKadl3McCM"
+17:36:39,099 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:39,099 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:39,099 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:39,099 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:39,100 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:39,101 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:39,101 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:39,101 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:39,102 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:39,102 DEBUG MainClientExec:207 - Stale connection check
+17:36:39,103 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:39,103 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:39,103 DEBUG MainClientExec:255 - Executing request POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/touch/perform HTTP/1.1
+17:36:39,103 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:39,103 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:39,103 DEBUG headers:135 - http-outgoing-0 >> POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/touch/perform HTTP/1.1
+17:36:39,104 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+17:36:39,104 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 183
+17:36:39,104 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:39,104 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:39,104 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:39,104 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:39,104 DEBUG wire:72 - http-outgoing-0 >> "POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/touch/perform HTTP/1.1[\r][\n]"
+17:36:39,104 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:39,104 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 183[\r][\n]"
+17:36:39,104 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:39,105 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:39,105 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:39,105 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:39,105 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:39,105 DEBUG wire:86 - http-outgoing-0 >> "{"actions":[{"action":"press","options":{"x":540,"y":1344}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"x":540,"y":576}},{"action":"release","options":{}}]}"
+17:36:40,494 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:40,494 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:40,494 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:43 GMT[\r][\n]"
+17:36:40,494 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:40,494 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+17:36:40,495 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:40,495 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:40,495 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:40,495 DEBUG wire:72 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+17:36:40,495 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"4c-Z/ga9lPnVMc70jE9KexLF0XeH7o"[\r][\n]"
+17:36:40,495 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:40,495 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:40,495 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:40,495 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":true,"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:40,496 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:40,496 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:40,496 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:43 GMT
+17:36:40,496 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:40,496 DEBUG headers:127 - http-outgoing-0 << Content-Length: 76
+17:36:40,496 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:40,496 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:40,497 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:40,497 DEBUG headers:127 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+17:36:40,497 DEBUG headers:127 - http-outgoing-0 << Etag: W/"4c-Z/ga9lPnVMc70jE9KexLF0XeH7o"
+17:36:40,497 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:40,497 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:40,497 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:40,498 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:40,498 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:40,499 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:40,499 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:40,499 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:40,500 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:40,500 DEBUG MainClientExec:207 - Stale connection check
+17:36:40,501 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:40,501 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:40,502 DEBUG MainClientExec:255 - Executing request POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1
+17:36:40,502 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:40,502 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:40,502 DEBUG headers:135 - http-outgoing-0 >> POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1
+17:36:40,502 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+17:36:40,502 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 43
+17:36:40,502 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:40,502 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:40,503 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:40,503 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:40,503 DEBUG wire:72 - http-outgoing-0 >> "POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1[\r][\n]"
+17:36:40,503 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:40,503 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 43[\r][\n]"
+17:36:40,503 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:40,503 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:40,503 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:40,504 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:40,504 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:40,504 DEBUG wire:86 - http-outgoing-0 >> "{"using":"id","value":"ReferrerMainButton"}"
+17:36:42,394 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:42,394 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:42,394 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:45 GMT[\r][\n]"
+17:36:42,395 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:42,395 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 74[\r][\n]"
+17:36:42,395 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:42,395 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:42,395 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:42,396 DEBUG wire:72 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+17:36:42,396 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"4a-cQJdlAaqlFRTcU3eHGv2ZeqrBXs"[\r][\n]"
+17:36:42,396 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:42,396 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:42,396 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:42,396 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":[],"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:42,397 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:42,397 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:42,397 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:45 GMT
+17:36:42,397 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:42,397 DEBUG headers:127 - http-outgoing-0 << Content-Length: 74
+17:36:42,397 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:42,397 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:42,397 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:42,398 DEBUG headers:127 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+17:36:42,398 DEBUG headers:127 - http-outgoing-0 << Etag: W/"4a-cQJdlAaqlFRTcU3eHGv2ZeqrBXs"
+17:36:42,398 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:42,398 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:42,398 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:42,399 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:42,399 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:42,400 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:42,401 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:42,401 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:42,401 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:42,401 DEBUG MainClientExec:207 - Stale connection check
+17:36:42,403 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:42,403 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:42,403 DEBUG MainClientExec:255 - Executing request GET /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/window/current/size HTTP/1.1
+17:36:42,403 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:42,403 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:42,403 DEBUG headers:135 - http-outgoing-0 >> GET /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/window/current/size HTTP/1.1
+17:36:42,404 DEBUG headers:138 - http-outgoing-0 >> Cache-Control: no-cache
+17:36:42,404 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:42,404 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:42,404 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:42,404 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:42,404 DEBUG wire:72 - http-outgoing-0 >> "GET /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/window/current/size HTTP/1.1[\r][\n]"
+17:36:42,404 DEBUG wire:72 - http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+17:36:42,404 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:42,404 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:42,405 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:42,405 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:42,405 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:42,765 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:42,765 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:42,765 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:45 GMT[\r][\n]"
+17:36:42,765 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:42,765 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 100[\r][\n]"
+17:36:42,765 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:42,765 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:42,766 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:42,766 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"64-JF17I6PPnEG8o3DfFBKadl3McCM"[\r][\n]"
+17:36:42,766 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:42,766 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:42,766 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:42,766 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":{"height":1920,"width":1080},"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:42,766 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:42,766 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:42,767 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:45 GMT
+17:36:42,767 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:42,767 DEBUG headers:127 - http-outgoing-0 << Content-Length: 100
+17:36:42,767 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:42,767 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:42,767 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:42,767 DEBUG headers:127 - http-outgoing-0 << Etag: W/"64-JF17I6PPnEG8o3DfFBKadl3McCM"
+17:36:42,767 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:42,767 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:42,767 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:42,768 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:42,768 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:42,769 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:42,769 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:42,770 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:42,770 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:42,770 DEBUG MainClientExec:207 - Stale connection check
+17:36:42,771 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:42,771 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:42,771 DEBUG MainClientExec:255 - Executing request POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/touch/perform HTTP/1.1
+17:36:42,771 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:42,771 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:42,771 DEBUG headers:135 - http-outgoing-0 >> POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/touch/perform HTTP/1.1
+17:36:42,772 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+17:36:42,772 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 183
+17:36:42,772 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:42,772 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:42,772 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:42,772 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:42,772 DEBUG wire:72 - http-outgoing-0 >> "POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/touch/perform HTTP/1.1[\r][\n]"
+17:36:42,772 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:42,772 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 183[\r][\n]"
+17:36:42,772 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:42,772 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:42,773 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:42,773 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:42,773 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:42,773 DEBUG wire:86 - http-outgoing-0 >> "{"actions":[{"action":"press","options":{"x":540,"y":1344}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"x":540,"y":576}},{"action":"release","options":{}}]}"
+17:36:44,080 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:44,081 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:44,081 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:47 GMT[\r][\n]"
+17:36:44,081 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:44,081 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+17:36:44,081 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:44,081 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:44,082 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:44,082 DEBUG wire:72 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+17:36:44,082 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"4c-Z/ga9lPnVMc70jE9KexLF0XeH7o"[\r][\n]"
+17:36:44,082 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:44,082 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:44,083 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:44,083 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":true,"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:44,083 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:44,083 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:44,083 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:47 GMT
+17:36:44,083 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:44,083 DEBUG headers:127 - http-outgoing-0 << Content-Length: 76
+17:36:44,084 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:44,084 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:44,084 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:44,084 DEBUG headers:127 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+17:36:44,084 DEBUG headers:127 - http-outgoing-0 << Etag: W/"4c-Z/ga9lPnVMc70jE9KexLF0XeH7o"
+17:36:44,084 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:44,084 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:44,084 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:44,085 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:44,085 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:44,086 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:44,086 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:44,087 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:44,087 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:44,087 DEBUG MainClientExec:207 - Stale connection check
+17:36:44,088 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:44,089 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:44,089 DEBUG MainClientExec:255 - Executing request POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1
+17:36:44,089 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:44,089 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:44,089 DEBUG headers:135 - http-outgoing-0 >> POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1
+17:36:44,089 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+17:36:44,089 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 43
+17:36:44,089 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:44,090 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:44,090 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:44,090 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:44,090 DEBUG wire:72 - http-outgoing-0 >> "POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/elements HTTP/1.1[\r][\n]"
+17:36:44,090 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:44,090 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 43[\r][\n]"
+17:36:44,090 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:44,090 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:44,090 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:44,090 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:44,091 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:44,091 DEBUG wire:86 - http-outgoing-0 >> "{"using":"id","value":"ReferrerMainButton"}"
+17:36:45,811 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:45,815 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:45,815 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:48 GMT[\r][\n]"
+17:36:45,816 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:45,816 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 89[\r][\n]"
+17:36:45,816 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:45,816 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:45,816 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:45,817 DEBUG wire:72 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+17:36:45,817 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"59-HeBeGUZ4Mq2COkrVfva+B2bOJPY"[\r][\n]"
+17:36:45,817 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:45,817 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:45,817 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:45,817 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":[{"ELEMENT":"1"}],"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:45,818 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:45,818 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:45,818 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:48 GMT
+17:36:45,818 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:45,818 DEBUG headers:127 - http-outgoing-0 << Content-Length: 89
+17:36:45,818 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:45,818 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:45,819 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:45,819 DEBUG headers:127 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+17:36:45,819 DEBUG headers:127 - http-outgoing-0 << Etag: W/"59-HeBeGUZ4Mq2COkrVfva+B2bOJPY"
+17:36:45,819 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:45,819 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:45,819 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:45,820 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:45,820 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:45,822 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:45,822 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:45,822 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:45,822 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:45,822 DEBUG MainClientExec:207 - Stale connection check
+17:36:45,824 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:45,824 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:45,824 DEBUG MainClientExec:255 - Executing request POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/element HTTP/1.1
+17:36:45,824 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:45,824 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:45,825 DEBUG headers:135 - http-outgoing-0 >> POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/element HTTP/1.1
+17:36:45,825 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+17:36:45,825 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 43
+17:36:45,825 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:45,825 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:45,825 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:45,825 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:45,825 DEBUG wire:72 - http-outgoing-0 >> "POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/element HTTP/1.1[\r][\n]"
+17:36:45,826 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:45,826 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 43[\r][\n]"
+17:36:45,826 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:45,826 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:45,826 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:45,826 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:45,826 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:45,826 DEBUG wire:86 - http-outgoing-0 >> "{"using":"id","value":"ReferrerMainButton"}"
+17:36:46,188 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:46,188 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:46,189 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:49 GMT[\r][\n]"
+17:36:46,189 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:46,189 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 87[\r][\n]"
+17:36:46,189 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:46,189 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:46,190 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:46,190 DEBUG wire:72 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+17:36:46,190 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"57-EE8AuJTLY10UmyzBolibzuk+3oc"[\r][\n]"
+17:36:46,190 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:46,190 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:46,191 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:46,191 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":{"ELEMENT":"2"},"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:46,191 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:46,191 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:46,192 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:49 GMT
+17:36:46,192 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:46,192 DEBUG headers:127 - http-outgoing-0 << Content-Length: 87
+17:36:46,192 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:46,192 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:46,192 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:46,192 DEBUG headers:127 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+17:36:46,193 DEBUG headers:127 - http-outgoing-0 << Etag: W/"57-EE8AuJTLY10UmyzBolibzuk+3oc"
+17:36:46,193 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:46,193 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:46,193 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:46,193 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:46,194 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:46,195 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:46,195 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:46,195 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:46,196 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:46,196 DEBUG MainClientExec:207 - Stale connection check
+17:36:46,197 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:46,198 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:46,198 DEBUG MainClientExec:255 - Executing request POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/element/2/click HTTP/1.1
+17:36:46,198 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:46,198 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:46,198 DEBUG headers:135 - http-outgoing-0 >> POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/element/2/click HTTP/1.1
+17:36:46,198 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+17:36:46,198 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 10
+17:36:46,199 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:46,199 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:46,199 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:46,199 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:46,199 DEBUG wire:72 - http-outgoing-0 >> "POST /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc/element/2/click HTTP/1.1[\r][\n]"
+17:36:46,199 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:46,199 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 10[\r][\n]"
+17:36:46,200 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:46,200 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:46,200 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:46,200 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:46,200 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:46,200 DEBUG wire:86 - http-outgoing-0 >> "{"id":"2"}"
+17:36:46,812 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:46,812 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:46,812 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:49 GMT[\r][\n]"
+17:36:46,813 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:46,813 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+17:36:46,813 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:46,813 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:46,813 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:46,813 DEBUG wire:72 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+17:36:46,813 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"4c-Z/ga9lPnVMc70jE9KexLF0XeH7o"[\r][\n]"
+17:36:46,813 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:46,814 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:46,814 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:46,814 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":true,"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:46,814 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:46,815 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:46,815 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:49 GMT
+17:36:46,815 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:46,815 DEBUG headers:127 - http-outgoing-0 << Content-Length: 76
+17:36:46,815 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:46,815 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:46,815 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:46,815 DEBUG headers:127 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+17:36:46,816 DEBUG headers:127 - http-outgoing-0 << Etag: W/"4c-Z/ga9lPnVMc70jE9KexLF0XeH7o"
+17:36:46,816 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:46,816 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:46,816 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:46,816 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:46,817 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:46,819 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+17:36:46,820 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+17:36:46,820 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:46,820 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:46,820 DEBUG MainClientExec:207 - Stale connection check
+17:36:46,821 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+17:36:46,822 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+17:36:46,822 DEBUG MainClientExec:255 - Executing request DELETE /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc HTTP/1.1
+17:36:46,822 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+17:36:46,822 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+17:36:46,822 DEBUG headers:135 - http-outgoing-0 >> DELETE /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc HTTP/1.1
+17:36:46,822 DEBUG headers:138 - http-outgoing-0 >> Host: us-mv.headspin.io:3007
+17:36:46,822 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+17:36:46,822 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)
+17:36:46,822 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:36:46,822 DEBUG wire:72 - http-outgoing-0 >> "DELETE /v0/aec0252d8e44456098f8574e265aeb33/wd/hub/session/c94142b6-13c7-11e8-944a-00e04c681fbc HTTP/1.1[\r][\n]"
+17:36:46,822 DEBUG wire:72 - http-outgoing-0 >> "Host: us-mv.headspin.io:3007[\r][\n]"
+17:36:46,823 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:36:46,823 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_172)[\r][\n]"
+17:36:46,823 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:36:46,823 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+17:36:49,539 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:36:49,540 DEBUG wire:72 - http-outgoing-0 << "Server: nginx/1.10.3 (Ubuntu)[\r][\n]"
+17:36:49,540 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 17 Feb 2018 09:49:52 GMT[\r][\n]"
+17:36:49,540 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+17:36:49,540 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+17:36:49,540 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+17:36:49,541 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+17:36:49,541 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+17:36:49,541 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"4c-GaxXyg6EZJD9dim5mP8wkrkWkKE"[\r][\n]"
+17:36:49,541 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+17:36:49,541 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+17:36:49,541 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+17:36:49,542 DEBUG wire:86 - http-outgoing-0 << "{"status":0,"value":null,"sessionId":"c94142b6-13c7-11e8-944a-00e04c681fbc"}"
+17:36:49,542 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+17:36:49,542 DEBUG headers:127 - http-outgoing-0 << Server: nginx/1.10.3 (Ubuntu)
+17:36:49,542 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 17 Feb 2018 09:49:52 GMT
+17:36:49,542 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+17:36:49,542 DEBUG headers:127 - http-outgoing-0 << Content-Length: 76
+17:36:49,542 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+17:36:49,542 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+17:36:49,542 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+17:36:49,543 DEBUG headers:127 - http-outgoing-0 << Etag: W/"4c-GaxXyg6EZJD9dim5mP8wkrkWkKE"
+17:36:49,543 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+17:36:49,543 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+17:36:49,543 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+17:36:49,543 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://us-mv.headspin.io:3007] can be kept alive indefinitely
+17:36:49,543 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://us-mv.headspin.io:3007][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+17:36:49,544 DEBUG PoolingHttpClientConnectionManager:401 - Closing connections idle longer than 0 SECONDS
+17:36:49,545 DEBUG DefaultManagedHttpClientConnection:81 - http-outgoing-0: Close connection
+17:36:49,546 DEBUG devpinoyLogger:47 - Stopping Appium Server
