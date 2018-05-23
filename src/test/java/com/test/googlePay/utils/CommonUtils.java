@@ -81,7 +81,6 @@ public class CommonUtils {
 
         driver = new AndroidDriver(new URL("https://us-mv.headspin.io:3007/v0/aec0252d8e44456098f8574e265aeb33/wd/hub"), capabilities);
 
-
         return driver;
 
     }

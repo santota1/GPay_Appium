@@ -1,17 +1,9 @@
 package com.test.googlePay.testcases;
 
 import com.test.googlePay.base.TestBase;
-import com.test.googlePay.screens.CardsScreen;
 import com.test.googlePay.screens.homeScreen.GooglePayHomeScreen;
 import com.test.googlePay.screens.setupScreen.GooglePaySetItUpScreen;
-import com.test.googlePay.utils.CommonUtils;
-import com.test.googlePay.utils.ReUsableMethods;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.StartsActivity;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
-import java.util.HashMap;
 
 public class GooglePayHomeScreenTest extends TestBase{
 
@@ -41,6 +33,10 @@ public class GooglePayHomeScreenTest extends TestBase{
     @Test (priority = 3)
     public void tapInviteFriends() throws Exception {
         googlePayHomeScreen.tapInviteFriendsButton();
+        googlePayHomeScreen.getReferralCode();
+        googlePayHomeScreen.openAccessibilityMenu();
+        googlePayHomeScreen.openEnterPromoCodeScreen();
+        googlePayHomeScreen.enterPromoCode();
     }
 
     /*@Test (priority = 4)

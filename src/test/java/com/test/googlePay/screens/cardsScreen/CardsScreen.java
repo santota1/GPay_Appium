@@ -1,4 +1,4 @@
-package com.test.googlePay.screens;
+package com.test.googlePay.screens.cardsScreen;
 
 import com.test.googlePay.base.ScreenBase;
 import io.appium.java_client.MobileElement;

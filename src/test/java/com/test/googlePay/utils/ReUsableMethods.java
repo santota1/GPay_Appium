@@ -17,6 +17,7 @@ public class ReUsableMethods extends TestBase{
         driver.swipe(startX, startY, endX, endY, 2000);
     }
 
+
     public static void swipeDown(){
 
         Dimension screenSize = driver.manage().window().getSize();
