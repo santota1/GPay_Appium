@@ -14,7 +14,7 @@ public class ReUsableMethods extends TestBase{
         int endX = (int) (screenSize.getWidth() * 0.5);;
         int endY = startY;
 
-        driver.swipe(startX, startY, endX, endY, 2000);
+        driver.swipe(startX, startY, endX, endY, 1000);
     }
 
 
@@ -23,10 +23,10 @@ public class ReUsableMethods extends TestBase{
         Dimension screenSize = driver.manage().window().getSize();
 
         int startX = (int) (screenSize.width * 0.5);
-        int startY = (int) (screenSize.height * 0.7);
+        int startY = (int) (screenSize.height * 0.8);
         int endX = (int) (screenSize.width * 0.5);
-        int endY = (int) (screenSize.height * 0.3);
+        int endY = (int) (screenSize.height * 0.2);
 
-        driver.swipe(startX, startY, endX, endY, 2000);
+        driver.swipe(startX, startY, endX, endY, 1000);
     }
 }
