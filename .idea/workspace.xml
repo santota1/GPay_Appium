@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8816cf47-8972-40d8-812f-bf8678b0fa5c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/googlePay/utils/ReUsableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/googlePay/utils/ReUsableMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Appium.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Appium.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/googlePay/screens/homeScreen/GooglePayHomeScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/googlePay/screens/homeScreen/GooglePayHomeScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/googlePay/utils/ReUsableMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/googlePay/utils/ReUsableMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Appium.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/logs/Appium.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/googlePay/screens/homeScreen/GooglePayHomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/googlePay/screens/homeScreen/GooglePayHomeScreen.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,8 +40,8 @@
       <file leaf-file-name="GooglePayHomeScreen.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/test/googlePay/screens/homeScreen/GooglePayHomeScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="641">
+              <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
               <folding>
                 <element signature="e#1766#1767#0" expanded="true" />
                 <element signature="e#1795#1796#0" expanded="true" />
@@ -934,8 +928,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/test/googlePay/screens/homeScreen/GooglePayHomeScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="641">
+          <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
           <folding>
             <element signature="e#1766#1767#0" expanded="true" />
             <element signature="e#1795#1796#0" expanded="true" />

@@ -108,7 +108,6 @@ public class GooglePayHomeScreen extends ScreenBase{
         }catch (Exception e){
             Assert.fail("Incorrect error message when entering self promo code");
         }
-
     }
 
 }
